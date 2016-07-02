@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/beaches"
+        android:layout_width="match_parent"
+        android:background="@color/beach_category"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Beaches"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/trails"
+        android:layout_width="match_parent"
+        android:background="@color/trails_category"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Trails"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/fun"
+        android:background="@color/fun_category"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Fun"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/food"
+        android:background="@color/food_category"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Food"
+        android:textSize="25dp" />
+
+</LinearLayout>
+
+
