@@ -11,8 +11,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Beaches"
-        android:textSize="25dp" />
+        android:text="@string/category_beaches"
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/trails"
@@ -21,8 +21,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Trails"
-        android:textSize="25dp" />
+        android:text="@string/category_trails"
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/fun"
@@ -31,8 +31,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Fun"
-        android:textSize="25dp" />
+        android:text="@string/category_fun"
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/food"
@@ -41,8 +41,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Food"
-        android:textSize="25dp" />
+        android:text="@string/category_food"
+        android:textSize="25sp" />
 
 </LinearLayout>
 

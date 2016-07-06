@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TourGuideApp</string>
+    <string name="category_beaches">Beaches</string>
+    <string name="category_trails">Trails</string>
+    <string name="category_fun">Fun</string>
+    <string name="category_food">Food</string>
 </resources>
