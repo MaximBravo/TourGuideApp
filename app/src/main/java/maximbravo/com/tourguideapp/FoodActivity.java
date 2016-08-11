@@ -17,16 +17,16 @@ public class FoodActivity extends AppCompatActivity {
         setContentView(R.layout.attraction_list);
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Restaurant Gary Danko", "Rating: 4.5"));
-        attractions.add(new Attraction("Kokkari Estiatorio", "Rating: 4.5"));
-        attractions.add(new Attraction("Frances", "Rating: 4.5"));
-        attractions.add(new Attraction("Wayfare Tavern", "Rating: 4.4"));
-        attractions.add(new Attraction("Acquerello", "Rating: 4.5"));
-        attractions.add(new Attraction("SPQR", "Rating: 4.1"));
-        attractions.add(new Attraction("Cotogna", "Rating: 4.3"));
-        attractions.add(new Attraction("The Slanted Door", "Rating: 4.2"));
-        attractions.add(new Attraction("Benu", "Rating: 4.6"));
-        attractions.add(new Attraction("La Folie", "Rating: 4.3"));
+        attractions.add(new Attraction(getString(R.string.restaurant_1), getString(R.string.r_rating_1)));
+        attractions.add(new Attraction(getString(R.string.restaurant_2), getString(R.string.r_rating_2)));
+        attractions.add(new Attraction(getString(R.string.restaurant_3), getString(R.string.r_rating_3)));
+        attractions.add(new Attraction(getString(R.string.restaurant_4), getString(R.string.r_rating_4)));
+        attractions.add(new Attraction(getString(R.string.restaurant_5), getString(R.string.r_rating_5)));
+        attractions.add(new Attraction(getString(R.string.restaurant_6), getString(R.string.r_rating_6)));
+        attractions.add(new Attraction(getString(R.string.restaurant_7), getString(R.string.r_rating_7)));
+        attractions.add(new Attraction(getString(R.string.restaurant_8), getString(R.string.r_rating_8)));
+        attractions.add(new Attraction(getString(R.string.restaurant_9), getString(R.string.r_rating_9)));
+        attractions.add(new Attraction(getString(R.string.restaurant_10), getString(R.string.r_rating_10)));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

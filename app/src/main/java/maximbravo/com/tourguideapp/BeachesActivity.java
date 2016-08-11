@@ -17,16 +17,10 @@ public class BeachesActivity extends AppCompatActivity {
         setContentView(R.layout.attraction_list);
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Ocean Beach", "Picture a 3.5 mile stretch of white beach with few tourists and no highrises. It's just \n" +
-                "you and the waves and the seabirds at Ocean Beach, on the western most ..."));
-        attractions.add(new Attraction("Baker Beach", "Gaze in wonder towards the Bridge and Marin Headlands from outside the \n" +
-                "Golden Gate at mile-long Baker Beach. It's nestled at the foot of rugged cliffs on \n" +
-                "the ..."));
-        attractions.add(new Attraction("China Beach", "Locals consider China Beach a civic secret, tucked between Lands End and \n" +
-                "Baker Beach in the Sea Cliff neighborhood west of the Golden Gate. This pristine\n" +
-                " ..."));
-        attractions.add(new Attraction("Rockaway Beach", "From surfers to swimmers to the Ramones, everyone wants to \"hitch a ride to \n" +
-                "Rockaway Beach.\" Rockaway Beach is a year-round resource for residents all ..."));
+        attractions.add(new Attraction(getString(R.string.beach_1), getString(R.string.beach_description_1)));
+        attractions.add(new Attraction(getString(R.string.beach_2), getString(R.string.beach_description_2)));
+        attractions.add(new Attraction(getString(R.string.beach_3), getString(R.string.beach_description_3)));
+        attractions.add(new Attraction(getString(R.string.beach_4), getString(R.string.beach_description_4)));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

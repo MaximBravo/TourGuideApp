@@ -17,12 +17,12 @@ public class FunActivity extends AppCompatActivity {
         setContentView(R.layout.attraction_list);
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Golden Gate Bridge", "Iconic art deco span opened in 1937"));
-        attractions.add(new Attraction("Fisherman's Wharf", "Sea lions, seafood, clams, walking, fishing"));
-        attractions.add(new Attraction("Alcatraz Island", "Notorious prison/historical attraction"));
-        attractions.add(new Attraction("San Francisco cable car system", "Museum"));
-        attractions.add(new Attraction("Union Square", "Historic public square & popular hangout"));
-        attractions.add(new Attraction("Pier 39", "Scenic pier with food & activities"));
+        attractions.add(new Attraction(getString(R.string.fun_1), getString(R.string.fun_d_1)));
+        attractions.add(new Attraction(getString(R.string.fun_2), getString(R.string.fun_d_2)));
+        attractions.add(new Attraction(getString(R.string.fun_3), getString(R.string.fun_d_3)));
+        attractions.add(new Attraction(getString(R.string.fun_4), getString(R.string.fun_d_4)));
+        attractions.add(new Attraction(getString(R.string.fun_5), getString(R.string.fun_d_5)));
+        attractions.add(new Attraction(getString(R.string.fun_6), getString(R.string.fun_d_6)));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
