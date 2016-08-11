@@ -17,6 +17,7 @@ import java.util.ArrayList;
  */
 public class AttractionAdapter extends ArrayAdapter<Attraction> {
     private int mImageResourceId;
+    private int[] mImageResourceIdArray;
     private int mColorResourceId;
 
     public AttractionAdapter(Context context, ArrayList<Attraction> attractions, int imageResourceId, int colorResourceId) {
@@ -25,6 +26,11 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         mColorResourceId = colorResourceId;
     }
 
+    public AttractionAdapter(Context context, ArrayList<Attraction> attractions, int[] imageResourceIdArray, int colorResourceId) {
+        super(context, 0, attractions);
+        mImageResourceIdArray = imageResourceIdArray;
+        mColorResourceId = colorResourceId;
+    }
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if an existing view is being reused, otherwise inflate the view
@@ -47,7 +53,11 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         descriptionTextView.setBackgroundColor(color);
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        imageView.setImageResource(mImageResourceId);
+        if(mImageResourceIdArray == null) {
+            imageView.setImageResource(mImageResourceId);
+        } else {
+            imageView.setImageResource(mImageResourceIdArray[position]);
+        }
         imageView.setBackgroundColor(color);
 
         LinearLayout textContainer = (LinearLayout) listItemView.findViewById(R.id.text_container);

@@ -17,16 +17,12 @@ public class TrailsActivity extends AppCompatActivity {
         setContentView(R.layout.attraction_list);
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("A trail", "Rating: 3"));
-        attractions.add(new Attraction("B trail", "Rating: 5"));
-        attractions.add(new Attraction("C trail", "Rating: 4"));
-        attractions.add(new Attraction("D trail", "Rating: 2"));
-        attractions.add(new Attraction("E trail", "Rating: 2"));
-        attractions.add(new Attraction("F trail", "Rating: 4"));
-        attractions.add(new Attraction("G trail", "Rating: 5"));
-        attractions.add(new Attraction("H trail", "Rating: 1"));
-        attractions.add(new Attraction("J trail", "Rating: 5"));
-        attractions.add(new Attraction("K trail", "Rating: 5"));
+        attractions.add(new Attraction("Lands End", "Rating: 4.8"));
+        attractions.add(new Attraction("The San Francisco Bay Trail Project", "Rating: N/A"));
+        attractions.add(new Attraction("Bay Area Ridge Trail", "Rating: N/A"));
+        attractions.add(new Attraction("Glen Canyon Park", "Rating: 4.5"));
+        attractions.add(new Attraction("SF Urban Hikes", "Rating: N/A"));
+        attractions.add(new Attraction("Mount Sutro Open Space Reserve", "Rating: 4.7"));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

@@ -12,6 +12,11 @@ public class Attraction {
         mDescription = description;
     }
 
+    public Attraction(String title, String description, String img) {
+        mTitle = title;
+        mDescription = description;
+    }
+
     public String getTitle() {
         return mTitle;
     }

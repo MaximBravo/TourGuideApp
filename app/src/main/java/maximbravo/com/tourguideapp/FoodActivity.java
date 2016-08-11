@@ -17,16 +17,16 @@ public class FoodActivity extends AppCompatActivity {
         setContentView(R.layout.attraction_list);
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("A restaurant", "Rating: 3"));
-        attractions.add(new Attraction("B restaurant", "Rating: 5"));
-        attractions.add(new Attraction("C restaurant", "Rating: 4"));
-        attractions.add(new Attraction("D restaurant", "Rating: 2"));
-        attractions.add(new Attraction("E restaurant", "Rating: 2"));
-        attractions.add(new Attraction("F restaurant", "Rating: 4"));
-        attractions.add(new Attraction("G restaurant", "Rating: 5"));
-        attractions.add(new Attraction("H restaurant", "Rating: 1"));
-        attractions.add(new Attraction("J restaurant", "Rating: 5"));
-        attractions.add(new Attraction("K restaurant", "Rating: 5"));
+        attractions.add(new Attraction("Restaurant Gary Danko", "Rating: 4.5"));
+        attractions.add(new Attraction("Kokkari Estiatorio", "Rating: 4.5"));
+        attractions.add(new Attraction("Frances", "Rating: 4.5"));
+        attractions.add(new Attraction("Wayfare Tavern", "Rating: 4.4"));
+        attractions.add(new Attraction("Acquerello", "Rating: 4.5"));
+        attractions.add(new Attraction("SPQR", "Rating: 4.1"));
+        attractions.add(new Attraction("Cotogna", "Rating: 4.3"));
+        attractions.add(new Attraction("The Slanted Door", "Rating: 4.2"));
+        attractions.add(new Attraction("Benu", "Rating: 4.6"));
+        attractions.add(new Attraction("La Folie", "Rating: 4.3"));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
